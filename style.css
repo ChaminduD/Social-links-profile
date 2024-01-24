@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 14px;
+    padding: 25px;
+    width: clamp(330px, 85%, 390px);
+}
+img{
+    width: 88px;
+    border-radius: 50%;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 26px;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin: 10px 0;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 30px 0 26px;
+}
+section a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+section a:hover{
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.attribution a{
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media only screen and (min-width:600px){
+    main{
+        padding: 40px;
+    }
+}
